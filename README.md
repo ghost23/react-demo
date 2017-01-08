@@ -9,11 +9,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Additionally the following libraries haven been added:
 
-- isomorphic-fetch (allows to use 'fetch' client- and server-side)
-- redux (helps with data handling)
-- react-redux (connect redux data handling to react)
-- react-router (URL routing, deciding what to do for what URL)
-- redux-saga (handling side-effects like IO with 'sagas')
+- [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) (allows to use 'fetch' client- and server-side)
+- [redux](https://github.com/reactjs/redux) (helps with data handling)
+- [react-redux](https://github.com/reactjs/react-redux) (connect redux data handling to react)
+- [react-router](https://github.com/ReactTraining/react-router) (URL routing, deciding what to do for what URL)
+- [redux-saga](https://github.com/redux-saga/redux-saga) (handling side-effects like IO with 'sagas')
 
 Below you will find some information on how to perform common dev tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
