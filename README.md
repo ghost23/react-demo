@@ -1,3 +1,10 @@
+The aim of this project is to show a typical react-router-redux-saga setup. This little web app does nothing interesting really, but it shows all integrated technologies with simple examples.
+
+If you're following documentations of the mentioned libraries, please note the following:
+
+- In redux, view (or presentational) components are usually found in a folder called 'components'. I don't like that, so I call the folder 'views' and then within that I do further distinctions.
+- In redux, container components are usually found in a folder called 'containers'. I don't like that, because I am more comfortable with calling them controllers. Hence my folder name 'controllers'.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Additionally the following libraries haven been added:
