@@ -1,5 +1,13 @@
 The aim of this project is to show a typical react-router-redux-saga setup. This little web app does nothing interesting really, but it shows all integrated technologies with simple examples.
 
+To work with this project you need to have [node.js](https://nodejs.org/de/) installed. It is recommended to use
+the newest stable version. At the time of this writing this is v7.4.0.
+
+After checking out this repo, navigate into the root folder of this project and
+run `npm install`. This might take a moment. After that, just run `npm start`. This will
+start the development server and open the browser with the web app. You can stop the development
+server at any time by hitting `CTRL+C`.
+
 If you're following documentations of the mentioned libraries, please note the following:
 
 - In redux, view (or presentational) components are usually found in a folder called 'components'. I don't like that, so I call the folder 'views' and then within that I do further distinctions.
@@ -22,7 +30,6 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
-- [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
@@ -97,43 +104,6 @@ We commit to keeping the breaking changes minimal so you can upgrade `react-scri
 ## Sending Feedback
 
 We are always open to [your feedback](https://github.com/facebookincubator/create-react-app/issues).
-
-## Folder Structure
-
-After creation, your project should look like this:
-
-```
-my-app/
-  README.md
-  node_modules/
-  package.json
-  public/
-    index.html
-    favicon.ico
-  src/
-    App.css
-    App.js
-    App.test.js
-    index.css
-    index.js
-    logo.svg
-```
-
-For the project to build, **these files must exist with exact filenames**:
-
-* `public/index.html` is the page template;
-* `src/index.js` is the JavaScript entry point.
-
-You can delete or rename the other files.
-
-You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.<br>
-You need to **put any JS and CSS files inside `src`**, or Webpack won’t see them.
-
-Only files inside `public` can be used from `public/index.html`.<br>
-Read instructions below for using assets from JavaScript and HTML.
-
-You can, however, create more top-level directories.<br>
-They will not be included in the production build so you can use them for things like documentation.
 
 ## Available Scripts
 
