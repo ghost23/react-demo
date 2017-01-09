@@ -17,3 +17,7 @@ export function weather(state = DEFAULT_TEMP, action) {
 		}
 	}
 }
+
+/*
+ TOUR (9):
+ */
