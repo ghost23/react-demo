@@ -1,31 +1,49 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tag above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+	<!--
+	TOUR (1): Welcome to the React demo project tour!
+	We're going to go through most of the parts of this little demo app to show you,
+	how React and some other libraries work.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+	React is a rendering library. In essence, you render HTML through JavaScript.
+	In order to have an entry point, you still need an initial HTML file, of course.
+	Usually, such an HTML file is pretty empty, because most of the HTML should be
+	rendered through React. In this file, the entry point is the div tag, that has the
+	id "root". Everything within this tag will be rendered through React.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+	CSS is added during the build process. More on this later.
 
-      To begin the development, run `npm start`.
-      To create a production bundle, use `npm run build`.
-    -->
-  </body>
+	In order to change stuff in the document head, we are using a library called
+	react-helmet, which we will show later.
+
+	Continue the tour in /src/index.js
+	-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+		<!--
+			Notice the use of %PUBLIC_URL% in the tag above.
+			It will be replaced with the URL of the `public` folder during the build.
+			Only files inside the `public` folder can be referenced from the HTML.
+
+			Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+			work correctly both with client-side routing and a non-root public URL.
+			Learn how to configure a non-root public URL by running `npm run build`.
+		-->
+		<title>React App</title>
+	</head>
+	<body>
+		<div id="root"></div>
+		<!--
+			This HTML file is a template.
+			If you open it directly in the browser, you will see an empty page.
+
+			You can add webfonts, meta tags, or analytics to this file.
+			The build step will place the bundled scripts into the <body> tag.
+
+			To begin the development, run `npm start`.
+			To create a production bundle, use `npm run build`.
+		-->
+	</body>
 </html>
